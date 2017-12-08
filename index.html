@@ -1,0 +1,607 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>David Molloy - Bootstrap CV</title>
+
+	<link rel="stylesheet" href="myStyle/Styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
+    <script src="assets/js/CHART.JS"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular.min.js"></script>
+    <script type="text/javascript">
+        var app = angular.module('MyApp', [])
+        app.controller('MyController', function ($scope) {
+            $scope.CurrentDate = new Date();
+        });
+    </script>
+	
+</head>
+<body>
+
+	<div class="container-fluid" style="border: 3px solid">
+		<nav class="navbar navbar-inverse navbar-fixed-top" >
+			<div class="navbar-header">
+			  <a class="navbar-brand" href="#">David Molloy</a>
+			</div>
+			<ul class="nav navbar-nav" >
+				<li><a href="#aboutMe">About Me</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#Contact Me">Contact Me</a></li>
+			</ul>
+		</nav>
+		
+		<header >
+			<br/><br/>
+			
+			<a class="navbar-brand"><img src="assets/david.png" height="350px" style="display: inline; padding-right: 10px;"/></a>
+			
+			<h1 class="text-center">DAVID MOLLOY</h1>
+			<h3>Student | davidmolloy13@hotmail.com</h3>
+			
+			<div class="row">
+				
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5></h5>
+				</div>
+				<div class="col-lg-6 ">
+					<p>I'm a student in IT Tallaght</p>
+				</div>
+			</div>
+	
+			<p class="text-center">Hello all my name is David Molloy and this is my CV Document that I have created for my 4th year IMD CA2.</p>
+			
+		</header>
+		
+		<br><br><br><br/><br/>
+
+		<section>
+			
+			<div id="aboutMe">
+				<h1>About me</h1>
+				<div id="skillswrap">
+						<div class="container">
+							<div class="row">
+									<div class="col-lg-2 col-lg-offset-1">
+										<h5>SKILLS</h5>
+									</div>
+									<div class="col-lg-3 centered">
+										<canvas id="Enterprise Perormance Applications" height="130" width="130"></canvas>
+										<p>Enterprise Perormance Applications</p>
+										<br>
+										<script>
+											var doughnutData = [
+													{
+														value: 70,
+														color:"#1abc9c"
+													},
+													{
+														value : 30,
+														color : "#ecf0f1"
+													}
+												];
+												var myDoughnut = new Chart(document.getElementById("Enterprise Perormance Applications").getContext("2d")).Doughnut(doughnutData);
+										</script>
+									</div>
+									<div class="col-lg-3 centered">
+										<canvas id="Cloud Architecture" height="130" width="130"></canvas>
+										<p>Cloud Architecture</p>
+										<br>
+										<script>
+											var doughnutData = [
+													{
+														value: 90,
+														color:"#1abc9c"
+													},
+													{
+														value : 10,
+														color : "#ecf0f1"
+													}
+												];
+												var myDoughnut = new Chart(document.getElementById("Cloud Architecture").getContext("2d")).Doughnut(doughnutData);
+										</script>
+									</div>
+									<div class="col-lg-3 centered">
+										<canvas id="Social Media Analysis" height="130" width="130"></canvas>
+										<p>Social Media Analysis</p>
+										<br>
+										<script>
+											var doughnutData = [
+													{
+														value: 65,
+														color:"#1abc9c"
+													},
+													{
+														value : 35,
+														color : "#ecf0f1"
+													}
+												];
+												var myDoughnut = new Chart(document.getElementById("Social Media Analysis").getContext("2d")).Doughnut(doughnutData);
+										</script>
+									</div>
+									
+									<div class="col-lg-3 col-lg-offset-3 centered">
+										<canvas id="Information Technology" height="130" width="130"></canvas>
+										<p>Information Technology</p>
+										<br>
+										<script>
+											var doughnutData = [
+													{
+														value: 80,
+														color:"#1abc9c"
+													},
+													{
+														value : 20,
+														color : "#ecf0f1"
+													}
+												];
+												var myDoughnut = new Chart(document.getElementById("Information Technology").getContext("2d")).Doughnut(doughnutData);
+										</script>
+									</div>
+									<div class="col-lg-3 centered">
+										<canvas id="Interactive Media" height="130" width="130"></canvas>
+										<p>Interactive Media</p>
+										<br>
+										<script>
+											var doughnutData = [
+													{
+														value: 70,
+														color:"#1abc9c"
+													},
+													{
+														value : 30,
+														color : "#ecf0f1"
+													}
+												];
+												var myDoughnut = new Chart(document.getElementById("Interactive Media").getContext("2d")).Doughnut(doughnutData);
+										</script>
+									</div>
+									<div class="col-lg-3 centered">
+										<canvas id="Maths" height="130" width="130"></canvas>
+										<p>Maths</p>
+										<br>
+										<script>
+											var doughnutData = [
+													{
+														value: 50,
+														color:"#1abc9c"
+													},
+													{
+														value : 50,
+														color : "#ecf0f1"
+													}
+												];
+												var myDoughnut = new Chart(document.getElementById("Maths").getContext("2d")).Doughnut(doughnutData);
+										</script>
+									</div>
+
+							</div>
+							<br>
+						</div>
+					</div>
+	
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Oratio me istius philosophi non offendit; Hic nihil fuit, quod quaereremus. Idem etiam dolorem saepe perpetiuntur, ne, si id non faciant, incidant in maiorem. Nec lapathi suavitatem acupenseri Galloni Laelius anteponebat, sed suavitatem ipsam neglegebat; Quae contraria sunt his, malane? Duo Reges: constructio interrete. Hanc ergo intuens debet institutum illud quasi signum absolvere.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Oratio me istius philosophi non offendit; Hic nihil fuit, quod quaereremus. Idem etiam dolorem saepe perpetiuntur, ne, si id non faciant, incidant in maiorem. Nec lapathi suavitatem acupenseri Galloni Laelius anteponebat, sed suavitatem ipsam neglegebat; Quae contraria sunt his, malane? Duo Reges: constructio interrete. Hanc ergo intuens debet institutum illud quasi signum absolvere.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Oratio me istius philosophi non offendit; Hic nihil fuit, quod quaereremus. Idem etiam dolorem saepe perpetiuntur, ne, si id non faciant, incidant in maiorem. Nec lapathi suavitatem acupenseri Galloni Laelius anteponebat, sed suavitatem ipsam neglegebat; Quae contraria sunt his, malane? Duo Reges: constructio interrete. Hanc ergo intuens debet institutum illud quasi signum absolvere.</p>
+			</div>
+				
+				
+			<div id="education">
+				<h1>Education</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Oratio me istius philosophi non offendit; Hic nihil fuit, quod quaereremus. Idem etiam dolorem saepe perpetiuntur, ne, si id non faciant, incidant in maiorem. Nec lapathi suavitatem acupenseri Galloni Laelius anteponebat, sed suavitatem ipsam neglegebat; Quae contraria sunt his, malane? Duo Reges: constructio interrete. Hanc ergo intuens debet institutum illud quasi signum absolvere.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Oratio me istius philosophi non offendit; Hic nihil fuit, quod quaereremus. Idem etiam dolorem saepe perpetiuntur, ne, si id non faciant, incidant in maiorem. Nec lapathi suavitatem acupenseri Galloni Laelius anteponebat, sed suavitatem ipsam neglegebat; Quae contraria sunt his, malane? Duo Reges: constructio interrete. Hanc ergo intuens debet institutum illud quasi signum absolvere.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Oratio me istius philosophi non offendit; Hic nihil fuit, quod quaereremus. Idem etiam dolorem saepe perpetiuntur, ne, si id non faciant, incidant in maiorem. Nec lapathi suavitatem acupenseri Galloni Laelius anteponebat, sed suavitatem ipsam neglegebat; Quae contraria sunt his, malane? Duo Reges: constructio interrete. Hanc ergo intuens debet institutum illud quasi signum absolvere.</p>
+			 <section id="education">
+    </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading"></h2>
+                    <h3 class="section-subheading text-muted">My three stages of Education</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="assets/attractas.jfif" alt="">
+                            </div>
+                            <br><br>
+							<div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>1999-2007</h4>
+                                    <h4 class="subheading">Primary School</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p><a href="http://www.sasns.ie/" target="_blank">St.Attractas Meadowbrook</a></p>
+                                </div>
+                            </div>
+							
+                        </li>
+                        <br><br>
+						<li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="assets/de la salle.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2007-2013</h4>
+                                    <h4 class="subheading">Secondary School</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted"><p><a href="http://www.delasallecollege.com/" target="_blank">De La Salle College Churchtown</a></p>
+                                </div>
+                            </div>
+                        </li>
+						<br><br>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="assets/it tallaght.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2013-present</h4>
+                                    <h4 class="subheading">College</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted"><a href="http://www.it-tallaght.ie/" target="_blank">Institute of Technology, Tallaght</a></p>
+                                </div>
+                            </div>
+                        </li>
+						<br><br>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+							<img class="img-circle img-responsive" src="assets/the end.jfif" alt="">
+                                <h4>Then the big bad world</h4>
+                            </div>
+                        </li>
+						
+                    </ul>
+                </div>
+            </div>
+        </div>
+		
+		<br><br><br><br><br>
+			
+			<ul class="nav nav-pills">
+					<li class="active"><a  href="#1a" data-toggle="tab">Fourth Year</a></li>
+					
+					<li><a  href="#2a" data-toggle="tab">Third Year</a></li>
+					
+					<li><a  href="#3a" data-toggle="tab">Second Year</a></li>
+					
+					<li><a  href="#4a" data-toggle="tab">First Year</a></li>
+				</ul>
+
+			
+			<div class="tab-content clearfix">
+					<div class="tab-pane active" id="1a">
+					<table class="table">
+							<thead>
+							  <tr>
+								<th>Subject</th>
+								<th>Grade</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td>IMD</td>
+								<td>N/A</td>
+							  </tr>
+							  <tr>
+								<td>Project</td>
+								<td>N/A</td>
+							  </tr>
+							  <tr>
+								<td>Cloud Architecture</td>
+								<td>N/A</td>
+							  </tr>
+							  <tr>
+								<td>Information Management</td>
+								<td>N/A</td>
+							  </tr>
+							  <tr>
+								<td>Enterprise Performance Architecture </td>
+								<td>N/A</td>
+							  </tr>
+							  <tr>
+								<td>Social Media Analysis</td>
+								<td>N/A</td>
+							  </tr>
+							</tbody>
+						  </table>
+					</div>
+			
+				    <div class="tab-pane" id="2a">
+						 <table class="table">
+							<thead>
+							  <tr>
+								<th>Subject</th>
+								<th>Grade</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td>Web Design</td>
+								<td>C+</td>
+							  </tr>
+							  <tr>
+								<td>Database</td>
+								<td>C+</td>
+							  </tr>
+							  <tr>
+								<td>Network</td>
+								<td>B</td>
+							  </tr>
+							  <tr>
+								<td>Innovation</td>
+								<td>B-</td>
+							  </tr>
+							  <tr>
+								<td>Project</td>
+								<td>B</td>
+							  </tr>
+							  <tr>
+								<td>Software Testing</td>
+								<td>C+</td>
+							  </tr>
+							  <tr>
+								<td>Operating Systems</td>
+								<td>C</td>
+							  </tr>
+							</tbody>
+						  </table>
+					</div>
+			
+			<div class="tab-pane" id="3a">
+						 <table class="table">
+							<thead>
+							  <tr>
+								<th>Subject</th>
+								<th>Grade</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td>Web Design</td>
+								<td>C+</td>
+							  </tr>
+							  <tr>
+								<td>Database</td>
+								<td>C+</td>
+							  </tr>
+							  <tr>
+								<td>Network</td>
+								<td>B</td>
+							  </tr>
+							  <tr>
+								<td>Innovation</td>
+								<td>B-</td>
+							  </tr>
+							  <tr>
+								<td>Project</td>
+								<td>B</td>
+							  </tr>
+							  <tr>
+								<td>Software Testing</td>
+								<td>C+</td>
+							  </tr>
+							  <tr>
+								<td>Operating Systems</td>
+								<td>C</td>
+							  </tr>
+							</tbody>
+						  </table>
+					</div>
+			
+					<div class="tab-pane" id="4a">
+						 <table class="table">
+							<thead>
+							  <tr>
+								<th>Subject</th>
+								<th>Grade</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td>Web Design</td>
+								<td>C+</td>
+							  </tr>
+							  <tr>
+								<td>Database</td>
+								<td>C+</td>
+							  </tr>
+							  <tr>
+								<td>Network</td>
+								<td>C</td>
+							  </tr>
+							  <tr>
+								<td>Innovation</td>
+								<td>C</td>
+							  </tr>
+							  <tr>
+								<td>Project</td>
+								<td>C</td>
+							  </tr>
+							  <tr>
+								<td>Software Testing</td>
+								<td>C+</td>
+							  </tr>
+							  <tr>
+								<td>Operating Systems</td>
+								<td>C</td>
+							  </tr>
+							</tbody>
+						  </table>
+					</div>
+			</div>
+			
+			<br><br><br><br><br>
+			
+			<div id="projects">
+				<h1>Projects</h1>
+	
+<section id="Projects" class="bg-light-gray">
+<div class="c-wrapper">
+<div id="carousel-example-generic" class="carousel slide">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Projects</h2>
+                    <h3 class="section-subheading text-muted">My two years of college projects</h3>
+                </div>
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+</ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+  <h3 align="center">Year 3</h3>
+  <img class="img-responsive img-centered" src="assets/pjhegarty.jpg">
+      <div class="carousel-caption">
+	  <h3>My Third Year Project.</h3>
+	  <p>My Third Year Project was so much fun!
+	  For my 3rd year project I had to research, test and document differant Asset Management Systems that the company PJHegartys were interested in using.</p>
+      </div>
+    </div>
+        <div class="item">
+  <h3 align="center">Year 4</h3>
+      <img class="img-responsive img-centered" src="assets/computer forensic.jfif">
+      <div class="carousel-caption">
+	  <h3>Computer Forensics</h3>
+	  <p>For my 4th year project I am creating a project about Computer Forensics.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="icon-prev"></span>
+     </a>
+     <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="icon-next"></span>
+     </a>
+    </div>
+    </div>
+    </section>
+	
+	<br><br><br><br><br>
+			</div>
+			
+				<br><br><br><br>
+				
+			<div id="Contact Me">
+				<h1>Contact Me</h1>
+				<p>ipsam neglegebat; Quae contraria sunt his, malane? Duo Reges: constructio interrete. Hanc ergo intuens debet institutum illud quasi signum absolvere.</p>
+				<p></p>
+				<p></p>
+				
+							<div class="container">
+ <form action="/action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+	  <option value="usa">Ireland</option>
+	</select>
+
+					<label for="subject">Subject</label>
+					<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Send</button>
+
+ </form>
+							</div>		
+			</div>
+			<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">MESSAGE SENT!!! :) </h4>
+      </div>
+      <div class="modal-body">
+        <p>Your message has been sent.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+			
+			<br>
+			<!-- Map -->
+    <section id="map" class="map">
+<div class="col-lg-12 text-center">
+<h2 class="section-heading">Map</h2>
+	
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9539.659968621017!2d-6.3629937!3d53.2910578!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6cf7501e0d9522a!2sInstitute+of+Technology+Tallaght!5e0!3m2!1sen!2sie!4v1512562686630" width="100%" height="auto" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </section>
+	
+<hr>	
+	
+	
+	
+	<br><br><br>
+			
+			
+			<footer style="margin-top: 4em;">
+				<div class="container">
+					<div class="row">
+						<div ng-app="MyApp" ng-controller="MyController">
+						<p><u>Date</u><br /><span>{{CurrentDate | date:'dd/MM/yyyy'}}</span>
+						<br>
+						<br>
+						<u>Time</u><br /><span>{{CurrentDate | date:'HH:mm:ss'}}</span>
+						<br>
+						<br>
+						</p>
+						</div>
+					</div>
+				</div>
+			
+			</footer>
+			
+		</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
