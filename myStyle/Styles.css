@@ -349,3 +349,7 @@ input[type=submit]:hover {
   margin-bottom: 3em;
    margin-top: 3em;
   }
+  #head1 img {
+    display:block;
+    margin:auto;
+}
